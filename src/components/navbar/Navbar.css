@@ -1,0 +1,50 @@
+/* for desctop version */
+.navigation {
+  background-color: rgba(114, 37, 93, 0.518);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.heading {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.position {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn {
+  width: 24px;
+  height: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .navigation {
+    gap: 25px;
+    display: flex;
+    align-items: center;
+  }
+
+  .heading {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+  }
+
+  .btn {
+    margin-top: -10px;
+    width: 32px;
+    height: 32px;
+  }
+}
