@@ -10,7 +10,7 @@ const HomepageItem = (props) => {
   };
 
   return (
-    <div className="container">
+    <div className="container" data-testid="homepageitem">
       <div className="item">
         <img className="icon" src={company} alt="company" />
         <h1 className="title">{title}</h1>

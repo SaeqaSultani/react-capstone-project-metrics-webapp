@@ -13,7 +13,7 @@ const Detailspage = () => {
   }, [dispatch]);
   // console.log(`companyDetails ${companyDetails}`);
   return (
-    <div className="parent">
+    <div className="parent" data-testid="detailspage">
       <div className="items">
         <img className="image" src={companyDetails.image} alt="company" />
         <p>

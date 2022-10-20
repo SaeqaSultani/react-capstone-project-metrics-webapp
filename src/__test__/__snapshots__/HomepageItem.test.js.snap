@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check any changes to the component 1`] = `
+<div
+  className="container"
+  data-testid="homepageitem"
+>
+  <div
+    className="item"
+  >
+    <img
+      alt="company"
+      className="icon"
+      src="company.png"
+    />
+    <h1
+      className="title"
+    />
+  </div>
+</div>
+`;

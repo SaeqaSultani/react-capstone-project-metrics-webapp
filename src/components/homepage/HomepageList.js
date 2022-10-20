@@ -15,7 +15,7 @@ const HomepageList = () => {
   }, [dispatch]);
 
   return (
-    <div className="context">
+    <div className="context" >
       <div className="container">
         {companyList.map((company) => (
           <div
