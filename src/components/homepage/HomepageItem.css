@@ -1,0 +1,34 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2rem;
+  justify-content: center;
+  align-content: center;
+  margin: 20px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 340px;
+  background-color: rgba(249, 228, 241);
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.img {
+  height: 300px;
+  width: 340px;
+  border-radius: 10px 10px 0 0;
+}
+
+.title {
+  font-weight: bold;
+  font-family: Poppins, sans-serif;
+  font-size: 35px;
+  padding: 15px;
+}
