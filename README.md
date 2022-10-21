@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# React capstone project - Companies
+Companies is a a React and Redux SPA application that dispalys interesting information about various companies in the world. It fetchs all the information that it displays using API request to a server.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Built With
+- React
+- Redux
+- CSS
 
-## Available Scripts
+# Dev Dependencies
+- React-routerDOM
+- Redux-toolkit
+- React-test-renderer
+- createAsyncThunk
 
-In the project directory, you can run:
+# Getting Started
+  Follow the instructions below to get started.
+- Cloning the repo
+- cd into the directory
+- installing the npm packages (npm install)
+- And finally starting the app. (that will be npm start) 
 
-### `npm start`
+# Run tests
+  Type this command into the terminal:
+- npm run test
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Video Link :)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Video Link](https://www.loom.com/share/7ec36e12e80341e295598cdb901ae8d2)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Live Demo :)
 
-### `npm run build`
+[Live Demo Link](https://saeqasultani.github.io/capstone-project-/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Authors
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+👤 Saeqa Sultani
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+GitHub: [SaeqaSultani](https://github.com/SaeqaSultani)
 
-### `npm run eject`
+Twitter: [SaeqaSultani](https://twitter.com/SaeqaSultani)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+LinkedIn: [SaeqaSultani](https://www.linkedin.com/in/saeqa-sultani-b41493187/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Feel free to check the [issues page](https://github.com/SaeqaSultani/react-capstone-project-metrics-webapp/issues).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Show your support
+Give a ⭐️ if you like this project!
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Acknowledgments
+- Thank you to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio), the author of the original design of this site :[original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
+- Microverse
+- [Financial Modeling Prep API Documentation](https://site.financialmodelingprep.com/developer/docs/)
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+# 📝 License
+This project is [MIT](https://github.com/SaeqaSultani/capstone-project-/blob/capstone/MIT.md) licensed.
