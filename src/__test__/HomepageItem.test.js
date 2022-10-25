@@ -17,7 +17,7 @@ it('Check any changes to the component', () => {
 it('the component should render a div container', () => {
   render(
     <Provider store={store}>
-      <HomepageItem />
+      <HomepageItem  title="title"/>
     </Provider>,
   );
 
