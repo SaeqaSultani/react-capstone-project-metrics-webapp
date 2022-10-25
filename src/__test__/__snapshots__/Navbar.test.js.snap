@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check any changes to the component 1`] = `
+<nav
+  className="navbar navbar-expand navbar-light"
+/>
+`;
