@@ -58,4 +58,4 @@ Give a ⭐️ if you like this project!
 - Inspiration
 - etc
 # 📝 License
-This project is [MIT](https://github.com/SaeqaSultani/capstone-project-/blob/capstone/MIT.md) licensed.
+This project is [MIT](https://github.com/SaeqaSultani/react-capstone-project-metrics-webapp/blob/dev/MIT.md) licensed.
