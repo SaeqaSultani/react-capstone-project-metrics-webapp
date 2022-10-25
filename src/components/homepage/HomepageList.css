@@ -1,4 +1,4 @@
-.context{
+.context {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -20,24 +20,22 @@ ul {
 
 /* for desctop version */
 @media only screen and (min-width: 768px) {
-  .context{
+  .context {
     display: flex;
     justify-content: center;
     align-content: center;
     width: 100%;
     height: 100%;
   }
-  
+
   .container {
     display: grid;
     grid-template-columns: repeat(5, 0.4fr);
     justify-content: center;
     align-content: center;
   }
-  
+
   ul {
     list-style: none;
   }
-  
-  
 }
