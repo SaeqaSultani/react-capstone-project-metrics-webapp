@@ -1,4 +1,4 @@
-/* for desctop version */
+
 .navigation {
   background-color: rgba(114, 37, 93, 0.518);
   display: flex;
@@ -18,15 +18,16 @@
 .position {
   display: flex;
   gap: 20px;
-  cursor: pointer;
   font-size: 20px;
 }
 
 .btn {
   width: 24px;
   height: 24px;
+  cursor: pointer;
 }
 
+/* for desctop version */
 @media only screen and (min-width: 768px) {
   .navigation {
     gap: 25px;

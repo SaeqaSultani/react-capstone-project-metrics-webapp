@@ -1,21 +1,11 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
 const GET_COMPANIES = 'companies/companies/GET_COMPANIES';
-const initialState = { companiesData: [] };
-const url = 'https://financialmodelingprep.com/api/v3/nasdaq_constituent?apikey=accdcdc9170c4d78c178e8891320b6f5';
-// thunk
-export const getCompanies = createAsyncThunk(
-  GET_COMPANIES,
-  async (args, { dispatch }) => {
-    const response = await fetch(url);
-    const data = await response.json();
-    console.log(data);
+const GET_COMPANIEY_DETAILS = 'companies/companies/GET_COMPANIEY_DETAILS';
 
-    dispatch({ type: GET_COMPANIES, companies: data });
+const url = 'https://financialmodelingprep.com/api/v3/nasdaq_constituent?apikey=6f7d6f7fb9d6628c3bcdc2ea4a338d9f';
 
-    return data;
-  },
-);
+const initialState = { companyList: [], companyDetails: {} };
 
 // reducer
 const companiesReducer = (state = initialState, action) => {
@@ -23,11 +13,37 @@ const companiesReducer = (state = initialState, action) => {
     case GET_COMPANIES:
       return {
         ...state,
-        companies: action.companies,
+        companyList: action.companies,
+      };
+    case GET_COMPANIEY_DETAILS:
+      return {
+        ...state,
+        companyDetails: action.companies,
       };
     default:
       return state;
   }
 };
+
+// thunk
+export const getCompanies = createAsyncThunk(
+  GET_COMPANIES,
+  async (args, { dispatch }) => {
+    const response = await fetch(url);
+    const data = await response.json();
+    dispatch({ type: GET_COMPANIES, companies: data });
+  },
+);
+
+export const getCompanyDetails = createAsyncThunk(
+  GET_COMPANIEY_DETAILS,
+  async (args, { dispatch }) => {
+    const response = await fetch(`https://financialmodelingprep.com/api/v3/profile/${args}?apikey=6f7d6f7fb9d6628c3bcdc2ea4a338d9f`);
+    const data = await response.json();
+    // console.log(`data: ${data}`);
+
+    dispatch({ type: GET_COMPANIEY_DETAILS, companies: data[0] });
+  },
+);
 
 export default companiesReducer;
