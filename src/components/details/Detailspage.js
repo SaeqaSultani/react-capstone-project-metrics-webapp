@@ -11,7 +11,7 @@ const Detailspage = () => {
   useEffect(() => {
     dispatch(getCompanyDetails(smbl));
   }, [dispatch]);
-  // console.log(`companyDetails ${companyDetails}`);
+
   return (
     <div className="parent" data-testid="detailspage">
       <div className="items">
