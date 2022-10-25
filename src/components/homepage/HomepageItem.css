@@ -26,7 +26,6 @@
   color: rgb(94, 74, 74);
 }
 
-
 /* for desctop version */
 @media only screen and (min-width: 768px) {
   .item {
