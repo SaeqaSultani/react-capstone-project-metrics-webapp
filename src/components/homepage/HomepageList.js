@@ -42,7 +42,8 @@ const HomepageList = () => {
             <div
               key={uuidv4()}
               onClick={() => navigate(`/details/${company.symbol}`)}
-              aria-hidden="true">
+              aria-hidden="true"
+            >
               <HomepageItem title={company.symbol} />
             </div>
           ))}

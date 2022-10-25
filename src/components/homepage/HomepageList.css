@@ -73,6 +73,7 @@ ul {
     background-color: rgba(115, 34, 93, 0.66);
     border: 2px solid rgb(255, 255, 255);
   }
+
   .container {
     display: grid;
     grid-template-columns: repeat(5, 0.4fr);
