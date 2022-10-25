@@ -30,7 +30,7 @@ Companies is a a React and Redux SPA application that dispalys interesting infor
 
 # Live Demo :)
 
-[Live Demo Link](https://saeqasultani.github.io/capstone-project-/)
+[Live Demo Link](https://react-capstone-project-metrics-webapp.netlify.app/)
 
 # Authors
 
