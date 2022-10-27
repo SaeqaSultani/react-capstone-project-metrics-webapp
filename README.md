@@ -1,5 +1,5 @@
 # React capstone project - Companies
-Companies is a a React and Redux SPA application that dispalys interesting information about various companies in the world. It fetchs all the information that it displays using API request to a server.
+Companies is React and Redux SPA application that dispalys interesting information about various companies in the world. It fetchs all the information that it displays using API request to a server.
 
 # Built With
 - React
