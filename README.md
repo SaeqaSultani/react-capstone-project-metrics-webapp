@@ -30,7 +30,7 @@ Companies is a a React and Redux SPA application that dispalys interesting infor
 
 # Live Demo :)
 
-[Live Demo Link](https://companies-url.netlify.app/)
+[Live Demo Link](https://companies-site.netlify.app/)
 
 # Authors
 
